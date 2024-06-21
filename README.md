@@ -1,4 +1,4 @@
-
+# Express Backend API
 
 This project is a simple Express.js backend API that handles form submissions, data retrieval, data search by email, and deletion of entries from a JSON file database. The application is built using Node.js and Express.
 
@@ -41,7 +41,7 @@ To start the server, run:
 
 ```sh
 npx ts-node src/index.ts
-
+```
 The server will start on http://localhost:3000.
 
 API Endpoints
@@ -105,7 +105,4 @@ Response
 404 Not Found: "Entry not found"
 JSON Database
 The data is stored in a JSON file named db.json in the root directory of the project. Ensure that this file exists before starting the server. You can create an empty JSON array in the file as shown below:
-
-json
-Copy code
 []
